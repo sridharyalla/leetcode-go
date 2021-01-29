@@ -1,6 +1,9 @@
 package main
 
 
+
+
+
 func Max(a int, b int) int {
 	if a > b {
 		return a
@@ -8,11 +11,13 @@ func Max(a int, b int) int {
 	return b
 }
 
+
 func test1 () int {
-	if true {
+	
+		if true {
 		return 0
 	} else {
-		return 1
+	return 1
 	}
 }
 
