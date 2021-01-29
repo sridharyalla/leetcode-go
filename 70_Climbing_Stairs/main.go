@@ -7,12 +7,13 @@ func Max(a int, b int) int {
 	return b
 }
 
-func test1 () int{
+func test1 () int {
 	if true {
 		return 0
 	} else {
 		return 1
 	}
+}
 
 func climbStairs(n int) int {
 	dp := make([]int, Max(3, n+1))
