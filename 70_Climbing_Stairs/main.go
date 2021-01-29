@@ -7,7 +7,7 @@ func max(a int, b int) int {
 	return b
 }
 
-func climbStairs(n int) int {
+func climbStairs1(n int) int {
 	dp := make([]int, max(3, n+1))
 	dp[0] = 1
 	dp[1] = 1
